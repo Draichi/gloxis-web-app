@@ -25,6 +25,7 @@ import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
 import LandingPage from "views/examples/LandingPage.js";
+import Gloxis from "views/examples/Gloxis.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
@@ -36,6 +37,7 @@ ReactDOM.render(
         path="/landing-page"
         render={(props) => <LandingPage {...props} />}
       />
+      <Route path="/gloxis" render={(props) => <Gloxis {...props} />} />
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
