@@ -40,111 +40,10 @@ export default function Typography() {
               <div className="typography-line">
                 <h1>
                   <span>Header 1</span>
-                  The Life of BLK• Design System React
+                  Avaible Gloxis
                 </h1>
               </div>
-              <div className="typography-line">
-                <h2>
-                  <span>Header 2</span>
-                  The Life of BLK• Design System React
-                </h2>
-              </div>
-              <div className="typography-line">
-                <h3>
-                  <span>Header 3</span>
-                  The Life of BLK• Design System React
-                </h3>
-              </div>
-              <div className="typography-line">
-                <h4>
-                  <span>Header 4</span>
-                  The Life of BLK• Design System React
-                </h4>
-              </div>
-              <div className="typography-line">
-                <h5>
-                  <span>Header 5</span>
-                  The Life of BLK• Design System React
-                </h5>
-              </div>
-              <div className="typography-line">
-                <h6>
-                  <span>Header 6</span>
-                  The Life of BLK• Design System React
-                </h6>
-              </div>
-              <div className="typography-line">
-                <p>
-                  <span>Paragraph</span>I will be the leader of a company that
-                  ends up being worth billions of dollars, because I got the
-                  answers. I understand culture. I am the nucleus. I think
-                  that’s a responsibility that I have, to push possibilities, to
-                  show people, this is the level that things could be at.
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Quote</span>
-                <blockquote>
-                  <p className="blockquote blockquote-info">
-                    "I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers. I understand
-                    culture. I am the nucleus. I think that’s a responsibility
-                    that I have, to push possibilities, to show people, this is
-                    the level that things could be at." <br />
-                    <br />
-                    <small>- Noaa</small>
-                  </p>
-                </blockquote>
-              </div>
-              <div className="typography-line">
-                <span>Muted Text</span>
-                <p className="text-muted">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Primary Text</span>
-                <p className="text-primary">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Info Text</span>
-                <p className="text-info">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Success Text</span>
-                <p className="text-success">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Warning Text</span>
-                <p className="text-warning">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Danger Text</span>
-                <p className="text-danger">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <h2>
-                  <span>Small Tag</span>
-                  Header with small subtitle <br />
-                  <small>Use "small" tag for the headers</small>
-                </h2>
-              </div>
+              
             </Col>
           </Row>
         </div>
@@ -152,36 +51,80 @@ export default function Typography() {
         <div id="images">
           <h3 className="mb-5">Images</h3>
           <Row>
-            <Col sm="3" xs="6">
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Image
+                Circle Raised
               </small>
               <img
                 alt="..."
-                className="img-fluid rounded shadow"
-                src={require("assets/img/ryan.jpg").default}
-                style={{ width: "150px" }}
-              />
-            </Col>
-            <Col sm="3" xs="6">
-              <small className="d-block text-uppercase font-weight-bold mb-4">
-                Circle Image
-              </small>
-              <img
-                alt="..."
-                className="img-fluid rounded-circle shadow"
-                src={require("assets/img/james.jpg").default}
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
                 style={{ width: "150px" }}
               />
             </Col>
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Raised
+                Circle Raised
               </small>
               <img
                 alt="..."
-                className="img-fluid rounded shadow-lg"
-                src={require("assets/img/lora.jpg").default}
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
+                style={{ width: "150px" }}
+              />
+            </Col>
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Circle Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
+                style={{ width: "150px" }}
+              />
+            </Col>
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Circle Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
+                style={{ width: "150px" }}
+              />
+            </Col>
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Circle Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
+                style={{ width: "150px" }}
+              />
+            </Col>
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Circle Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
+                style={{ width: "150px" }}
+              />
+            </Col>
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Circle Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded-circle shadow-lg"
+                src={require("assets/img/mike.jpg").default}
                 style={{ width: "150px" }}
               />
             </Col>

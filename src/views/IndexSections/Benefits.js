@@ -37,19 +37,18 @@ export default function PaginationSection() {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-                <h1 className="text-center">Your best benefit</h1>
+                <h1 className="text-center">What is it?</h1>
                 <Row className="row-grid justify-content-center">
                   <Col lg="3">
                     <div className="info">
                       <div className="icon icon-primary">
                         <i className="tim-icons icon-money-coins" />
                       </div>
-                      <h4 className="info-title">Low Commission</h4>
+                      <h4 className="info-title">Non fungible token</h4>
                       <hr className="line-primary" />
                       <p>
-                        Divide details about your work into parts. Write a few
-                        lines about each one. A paragraph describing a feature
-                        will.
+                        An non fungible token (NFT) is a unique piece of informatino on internet.
+                        It cannot be replaced with something else. Making each Gloxis a one-of-a-kind trading card.
                       </p>
                     </div>
                   </Col>
@@ -58,12 +57,11 @@ export default function PaginationSection() {
                       <div className="icon icon-warning">
                         <i className="tim-icons icon-chart-pie-36" />
                       </div>
-                      <h4 className="info-title">High Incomes</h4>
+                      <h4 className="info-title">Dynamic</h4>
                       <hr className="line-warning" />
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing feature will be a feature.
+                        When a Gloxis is created it receives a provably-fair and verifiable random DNA.
+                        Since dealing with randomness is a challenge in blockchain, Gloxis achieves it with the help of Chainlink. 
                       </p>
                     </div>
                   </Col>
@@ -72,12 +70,10 @@ export default function PaginationSection() {
                       <div className="icon icon-success">
                         <i className="tim-icons icon-single-02" />
                       </div>
-                      <h4 className="info-title">Verified People</h4>
+                      <h4 className="info-title">Rare</h4>
                       <hr className="line-success" />
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing be enough.
+                        Each Gloxis has it's art work hand-made based on it's own DNA. A powerful or pretty Gloxis has the incentives to be more valuable.
                       </p>
                     </div>
                   </Col>
@@ -131,11 +127,10 @@ export default function PaginationSection() {
               <Col md="6">
                 <div className="px-md-5">
                   <hr className="line-success" />
-                  <h3>Awesome features</h3>
+                  <h3>Combat system</h3>
                   <p>
-                    The design system comes with three pre-built pages to help
-                    you get started faster. You can change the text and images
-                    and you're good to go.
+                    Gloxis are pacific beans, to get stronger you just need to share 1 point of your mana with another Gloxis and &#128588; you level up!
+                    So get a Gloxis with high mana and ask your friends to share their mana with you so you can level up make a even stronger Gloxis
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
